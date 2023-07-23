@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 7.3%;
+}
+
+
+input{
+    position: absolute;
+    margin-top: 20%;
+}
+
+button{
+    position: absolute;
+    margin-top: 30%;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+           inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+button:hover{
+    transform: translateY(1px);
+    box-shadow: inset 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
